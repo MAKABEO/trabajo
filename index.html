@@ -1,0 +1,14 @@
+
+ {% block content %}
+  <h2>Autentificarse</h2>
+        <form action="autenficacion" method="post">
+            <fieldset>
+            <legend>Denos sus datos</legend>
+
+                Nombre de usuario:<input type="text" name="username" value="" id="username" />
+                Contrasena:<input type="password" name="password" value="" id="password" />
+
+            <input type="submit" name="sent" value="A provar" />
+        </fieldset>
+    </form>
+    {% endblock %}
